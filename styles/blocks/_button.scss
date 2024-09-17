@@ -1,0 +1,16 @@
+.button {
+    @include flex-center(true);
+
+    height:var(--button-height);
+    padding-inline: 18px;
+    font-size: 17px;
+    color: var(--color-light);
+    background-color: var(--color-dark-blue);
+    border: var(--border);
+    border-radius: var(--border-radius);
+
+    @include hover {
+        background-color: var(--color-light);
+        color: var(--color-dark-blue);
+    }
+}

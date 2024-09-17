@@ -1,0 +1,45 @@
+.header {
+  padding-block: 26px;
+
+  @include tablet {
+    padding-top: 18px;
+  }
+
+  @include mobile {
+    padding-top: 14px;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+  }
+
+  &__logo {
+    @include mobile {
+      max-width: 144px;
+    }
+  }
+
+  &__menu {
+    margin-left: auto;
+    font-size: 17px;
+
+    &-list {
+      display: flex;
+      align-items: center;
+      column-gap: 40px;
+    }
+
+    &-link {
+      display: inline-flex;
+      align-items: center;
+      height: 48px;
+    }
+
+    &-link:hover {
+      color: var(--color-dark-blue);
+    }
+  }
+}
