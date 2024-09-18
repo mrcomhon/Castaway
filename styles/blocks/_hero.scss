@@ -7,11 +7,20 @@
   column-gap: 30px;
   color: var(--color-light);
 
+@include mobile {
+  flex-direction: column;
+  row-gap: 30px;
+}
+
   &__body {
     max-width: 530px;
     display: flex;
     flex-direction: column;
     row-gap: 70px;
+
+    @include mobile{
+      row-gap:30px;
+    }
   }
 
   &__apps {
@@ -32,25 +41,59 @@
     font-size: 60px;
     font-weight: 400;
     max-width: 506px;
+
+    @include tablet {
+      font-size: 44px;
+    }
+
+    @include mobile {
+      font-size: 40px;
+    }
   }
 
   &__title--line {
     position: absolute;
     bottom: 0;
+
+    
   }
 
   &__title--special {
     position: relative;
+
+    @include tablet {
+      font-size: 44px;
+    }
+
+    @include mobile {
+      font-size: 40px;
+    }
   }
 
   &__title--under {
     font-weight: 400;
     font-size: 60px;
+
+    @include tablet {
+      font-size: 44px;
+    }
+
+    @include mobile {
+      font-size: 40px;
+    }
   }
 
   &__title--bold {
     font-weight: 700;
     font-size: 60px;
+
+    @include tablet {
+      font-size: 44px;
+    }
+
+    @include mobile {
+      font-size: 40px;
+    }
   }
 
   &__description {
@@ -59,5 +102,25 @@
     line-height: 24px;
     font-weight: 400;
     width: 230px;
+  }
+
+  &__image {
+position: relative;
+
+    @include tablet {
+      max-height:  60%;
+      max-width: 100%;
+    }
+  }
+
+  &__image--line {
+    position: absolute;
+    top: -30px;
+    left: -20px;
+
+    @include tablet {
+      width: 16%;
+      height: 12%;
+    }
   }
 }

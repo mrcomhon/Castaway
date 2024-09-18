@@ -362,6 +362,11 @@ a {
 section {
   padding-block: var(--section-padding-y);
 }
+@media (max-width: 1023px) {
+  section {
+    padding-top: 0;
+  }
+}
 
 .hero {
   display: flex;
@@ -373,11 +378,22 @@ section {
        column-gap: 30px;
   color: var(--color-light);
 }
+@media (max-width: 767px) {
+  .hero {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
 .hero__body {
   max-width: 530px;
   display: flex;
   flex-direction: column;
   row-gap: 70px;
+}
+@media (max-width: 767px) {
+  .hero__body {
+    row-gap: 30px;
+  }
 }
 .hero__apps {
   display: flex;
@@ -397,6 +413,16 @@ section {
   font-weight: 400;
   max-width: 506px;
 }
+@media (max-width: 1023px) {
+  .hero__title--text {
+    font-size: 44px;
+  }
+}
+@media (max-width: 767px) {
+  .hero__title--text {
+    font-size: 40px;
+  }
+}
 .hero__title--line {
   position: absolute;
   bottom: 0;
@@ -404,13 +430,43 @@ section {
 .hero__title--special {
   position: relative;
 }
+@media (max-width: 1023px) {
+  .hero__title--special {
+    font-size: 44px;
+  }
+}
+@media (max-width: 767px) {
+  .hero__title--special {
+    font-size: 40px;
+  }
+}
 .hero__title--under {
   font-weight: 400;
   font-size: 60px;
 }
+@media (max-width: 1023px) {
+  .hero__title--under {
+    font-size: 44px;
+  }
+}
+@media (max-width: 767px) {
+  .hero__title--under {
+    font-size: 40px;
+  }
+}
 .hero__title--bold {
   font-weight: 700;
   font-size: 60px;
+}
+@media (max-width: 1023px) {
+  .hero__title--bold {
+    font-size: 44px;
+  }
+}
+@media (max-width: 767px) {
+  .hero__title--bold {
+    font-size: 40px;
+  }
 }
 .hero__description {
   height: 24px;
@@ -418,6 +474,26 @@ section {
   line-height: 24px;
   font-weight: 400;
   width: 230px;
+}
+.hero__image {
+  position: relative;
+}
+@media (max-width: 1023px) {
+  .hero__image {
+    max-height: 60%;
+    max-width: 100%;
+  }
+}
+.hero__image--line {
+  position: absolute;
+  top: -30px;
+  left: -20px;
+}
+@media (max-width: 1023px) {
+  .hero__image--line {
+    width: 16%;
+    height: 12%;
+  }
 }
 
 .header {
