@@ -210,7 +210,7 @@ svg * {
   --font-family-base: "DM Sans", sans-serif;
   --container-width: 1300px;
   --container-padding-x: 20px;
-  --section-padding-y: 70px;
+  --section-padding-y: 40px;
   --input-height: 82px;
   --button-height: 51px;
   --button-height-alt: 29px;
@@ -538,4 +538,71 @@ section {
 }
 .header__menu-link:hover {
   color: var(--color-dark-blue);
+}
+
+.tips {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 27px;
+  padding-inline: 16px;
+  font-size: 18px;
+  color: var(--color-light);
+  background-color: var(--color-grey);
+  border: 1px solid var(--color-grey);
+  border-radius: var(--border-radius);
+  font-weight: 400;
+}
+
+.episodes__list:not(:last-child) {
+  margin-bottom: 160px;
+}
+
+.section__title {
+  color: var(--color-light);
+  font-size: 64px;
+  line-height: 79px;
+  font-weight: 400;
+}
+.section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__header:not(:last-child) {
+  margin-bottom: 66px;
+}
+
+.episodes-card {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  min-height: 512px;
+  padding: 40px;
+  margin-bottom: 60px;
+  background-color: var(--color-black);
+  border: 1px solid black;
+  border-radius: 32px;
+}
+.episodes-card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.episodes-card__number {
+  color: var(--color-dark-blue);
+}
+.episodes-card__title {
+  color: var(--color-light);
+  font-size: 64px;
+  line-height: 70px;
+  font-weight: 400;
+}
+.episodes-card__description {
+  color: var(--color-light-grey);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
 }/*# sourceMappingURL=styles.css.map */
