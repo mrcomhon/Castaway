@@ -1,0 +1,38 @@
+.episodes-card {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    min-height: 512px;
+    padding: 40px;
+    margin-bottom: 60px;
+
+
+  background-color: var(--color-black);
+  border: 1px solid black;
+  border-radius: 32px;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+  }
+
+  &__number {
+    color: var(--color-dark-blue);
+  }
+
+  &__title {
+    color: var(--color-light);
+    font-size: 64px;
+    line-height: 70px;
+    font-weight: 400;
+  }
+
+  &__description {
+    color: var(--color-light-grey);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+  }
+}

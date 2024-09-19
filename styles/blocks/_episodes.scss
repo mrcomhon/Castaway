@@ -1,0 +1,26 @@
+.episodes {
+    &__list {
+        &:not(:last-child) {
+            margin-bottom: 160px;
+        }
+    }
+}
+
+.section {
+  &__title {
+    color: var(--color-light);
+    font-size: 64px;
+    line-height: 79px;
+    font-weight: 400;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 66px;
+    }
+  }
+}
