@@ -8,6 +8,14 @@
 
 .section {
   &__title {
+    @include tablet {
+      font-size: 48px;
+    }
+
+    @include mobile {
+      font-size: 36px;
+    }
+
     color: var(--color-light);
     font-size: 64px;
     line-height: 79px;
@@ -15,6 +23,12 @@
   }
 
   &__header {
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
     display: flex;
     justify-content: space-between;
     align-items: center;
