@@ -122,10 +122,6 @@ body {
 /**
   Приводим к единому цвету svg-элементы
  */
-svg *[fill] {
-  fill: currentColor;
-}
-
 svg *[stroke] {
   stroke: currentColor;
 }
@@ -673,4 +669,54 @@ section {
     height: auto;
     margin-bottom: 18px;
   }
+}
+
+.host {
+  display: flex;
+  justify-content: space-between;
+  padding-top: var(--section-padding-y);
+}
+.host__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 28px;
+  max-width: 590px;
+}
+.host__link {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.host__link-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  aspect-ratio: 1;
+  background-color: var(--color-dark-blue);
+  border-radius: 50%;
+}
+.host__link-icon-wrapper svg {
+  color: var(--color-light);
+  transform: rotate(270deg);
+}
+.host__link-label {
+  color: var(--color-dark-blue);
+}
+.host__title {
+  color: var(--color-light);
+  font-family: DM Sans;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+}
+.host__description {
+  color: var(--color-light-grey);
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
 }/*# sourceMappingURL=styles.css.map */
