@@ -1,5 +1,6 @@
 section {
     padding-block: var(--section-padding-y);
+    margin-block: 40px;
 
     @include tablet {
         padding-top: 0;

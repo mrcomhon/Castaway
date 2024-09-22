@@ -1,5 +1,6 @@
 @import "normalize", "fonts", "mixins", "media", "utils", "variables", "globals";
-@import "blocks/button", "blocks/field", "blocks/burger-button",
+@import "blocks/button", "blocks/grid", "blocks/field", "blocks/burger-button",
   "blocks/cross_button", "blocks/mobile-overlay", "blocks/section",
   "blocks/hero", "blocks/header", "blocks/tips", "blocks/episodes",
-  "blocks/episodes-card", "blocks/host", "blocks/subscribe";
+  "blocks/episodes-card", "blocks/host", "blocks/subscribe", "blocks/rate",
+  "blocks/rate-card";

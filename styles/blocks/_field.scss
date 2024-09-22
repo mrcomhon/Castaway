@@ -1,0 +1,40 @@
+.field {
+  &__input {
+    max-width: 522px;
+    width: 490px;
+    height: var(--input-height);
+    border: 1px solid;
+    border-radius: var(--border-radius);
+    padding-inline: 20px;
+    background-color: var(--color-grey);
+
+    @include desktop {
+      max-width: 400px;;
+    }
+
+    @include tablet {
+        max-width: 340px;
+    }
+
+    @include mobile {
+        width: auto;
+    }
+
+    @include mobile-s {
+      width: auto;
+      padding-inline: 8px;
+    }
+    
+    @include hover {
+      background-color: var(--color-dark-blue);
+    }
+  }
+
+  &__input:hover::placeholder {
+    color: var(--color-light);
+    @include hover {
+      color: var(--color-grey);
+    }
+  }
+  // не могу сделать чтобы при нажатии на моб устройствах hover вырубался в placeholder(
+}

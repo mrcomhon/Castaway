@@ -1,0 +1,105 @@
+.subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--color-black);
+  padding-block: 60px 75px;
+  padding-inline: 60px;
+  border-radius: 32px;
+  position: relative;
+
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+  }
+
+  &__form,
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  &__form {
+    align-items: flex-start;
+    justify-content: center;
+
+    @include mobile-s {
+      align-items: center;
+    }
+  }
+
+  &__text {
+    @include tablet {
+        width: auto
+    }
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  
+  &__description {
+    color: var(--color-dark-blue);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+    @include tablet {
+      font-size: 16px;
+    }
+
+    @include mobile {
+    }
+  }
+
+  &__title {
+    font-family: DM Sans;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    text-align: left;
+    color: var(--color-light);
+    width: 430px;
+
+    @include tablet {
+      font-size: 36px;
+      width: auto;
+    }
+
+     @include tablet-above {
+      font-size: 48px;
+    }
+
+    
+    @include mobile {
+      width: 290px;
+      font-size: 48px;
+    }
+    
+    @include mobile-s {
+      font-size: 32px;
+      max-width: 204px;
+    }
+  }
+
+  &__image-line {
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+
+    @include tablet {
+    }
+    @include mobile {
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.rate-card {
+  background-color: black;
+  padding: 50px;
+  border: var(--border);
+  border-radius: var(--border-radius-large);
+  height: 100%;
+
+  &__header {
+    display: flex;
+    column-gap: 5px;
+    padding-bottom: 20px;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  &__quote {
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    text-align: left;
+    color: var(--color-light);
+  }
+
+  &__author {
+    color: var(--color-light-grey);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+  }
+}

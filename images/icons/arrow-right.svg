@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg width="71" height="38" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <pattern height="1" id="pattern0_2_160" patternContentUnits="objectBoundingBox" width="1">
+   <use id="svg_1" transform="matrix(0.0283094 0 0 0.0151515 -0.0803429 0)" xlink:href="#image0_2_160"/>
+  </pattern>
+  <image height="66" id="image0_2_160" width="41" xlink:href="data:image/png;svgedit_url=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACkAAABCCAYAAADKU%2F9vAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEjSURBVHgB7drrDYIwFIbhg3EQVmES3UQ2kU0YRTbBHlKMIpdePmhJvjc5qdY%2FT9qQmKgIsL7vSzO1rpJrFqjVAuwiJ4hIVESiIhIVkaiIREUkKiJREYmKSFREoiISFZGoiERFJCoiURGJikhURKIiEhWRqM6BzPX3wG%2FX1by%2Fm3mYuZmNqiiKThJnD6w1o%2Btw3Y2Zzm60qU90AuzMNBd7cpVkAJ0BDjc7PDg5QJeA%2Btnn6U4JXQP%2BILUU0C3gH1I7EuoCnEVqR0BdgYtIbU%2BoD3AVqe0B9QVuIjUkNATohNQQ0FCgM1KLgcYAvZBaCDQW6I3UfKAIYBBSc4GigNHZL6Yv%2B%2F80XZ%2F2dTPZLyVlE%2Bi09MCxBWg%2BwLGZqy8lxyy0RQPfgExldUTH3QQAAAAASUVORK5CYII%3D;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAABCCAYAAADKU/9vAAAAAXNSR0IArs4c6QAAAZZJREFUaEPtmt1RwzAQhE+d0AlDJ1AJpBKgEiiFToTlkRlHSL6/fVy/JONEd9+sor2LpSLAq9b6ICLPIvJRSvlBhS6oQC1OrfVte3kVkVsppb2HXISEyLhNC5WkklEFuLqjyo3jqCSVBChAMweIuIegklQyqgDNPKocy+JJAVoQ6mdEJalkVAGaeVQ5mjnNnI/+AKuHFgQQcQ9BJakkQAH2kwAR+ZgFuyOG3A9E+uQd1ylw27B8ymxcoiA74Ne2kdo2VG9luJECRUBOeXo5a8QHeRg0C7kS7M8nEYpmIK/y35l5FjQKqeX9V3G0AVcGHYG05JuWRcvAGawX0ppnWbutAc6wHkhP/MsGwxPI0/R646pdkCegRUlPvGOWVEiPj2qQEUDXZpMlwRWkZfzKOUxKHoO1RCtIbZzWd7ogtamfQWYBXdM9WM201o+QCMAw5ErRfk5tPwbWzqshmpYU5AL0u4N+boCPvR8Md1UuC1Lq9Xnqx6+mAdNKLlb9cRsCCIPUVr1mMdrnbgsyTP27iLxk/iuNOX4BNfgRGKIBBTEAAAAASUVORK5CYII="/>
+  <pattern height="1" id="svg_3" patternContentUnits="objectBoundingBox" width="1" y1="1" y2="1">
+   <use id="svg_1" transform="matrix(0.0283094 0 0 0.0151515 -0.0803429 0)" xlink:href="#image0_2_160"/>
+  </pattern>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <path d="m26.92,-8.98l0,56l14,0l0,-56l-14,0z" fill="url(#svg_3)" id="svg_2" transform="rotate(-90.2243 33.9178 19.014)"/>
+ </g>
+</svg>
