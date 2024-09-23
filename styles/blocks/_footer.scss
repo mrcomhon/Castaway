@@ -42,8 +42,7 @@
     column-gap: 24px;
 
     @include mobile {
-
-      justify-content:center
+      justify-content: center;
     }
   }
 
@@ -60,7 +59,6 @@
     @include mobile {
       width: auto;
       padding-right: 24px;
-     
     }
   }
 
@@ -84,25 +82,22 @@
     flex-direction: column;
     width: 190px;
 
-       @include tablet {
-     padding-inline: 48px;
+    @include tablet {
+      padding-inline: 48px;
     }
 
     @include mobile {
       width: auto;
       padding-inline: 0;
-      
     }
   }
 
   &__text-mobile {
     display: flex;
-    margin-block: 24px;
 
-    @include tablet {
-     
+    @include mobile {
+      margin-block: 24px;
     }
-   
   }
 
   &__apps {

@@ -1127,7 +1127,11 @@ section {
 }
 .footer__text-mobile {
   display: flex;
-  margin-block: 24px;
+}
+@media (max-width: 768px) {
+  .footer__text-mobile {
+    margin-block: 24px;
+  }
 }
 .footer__apps {
   display: flex;
