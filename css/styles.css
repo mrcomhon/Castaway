@@ -1027,4 +1027,125 @@ section {
   font-weight: 400;
   line-height: 28.8px;
   text-align: left;
+}
+
+.footer__inner {
+  display: flex;
+}
+@media (max-width: 1025px) {
+  .footer__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 768px) {
+  .footer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.footer__networks {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.footer__header {
+  margin-right: 240px;
+}
+@media (max-width: 1280px) {
+  .footer__header {
+    margin-right: 120px;
+  }
+}
+@media (max-width: 1025px) {
+  .footer__header {
+    margin-right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .footer__header {
+    margin-right: 0;
+  }
+}
+.footer__body {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+@media (max-width: 768px) {
+  .footer__body {
+    justify-content: center;
+  }
+}
+.footer__navigation {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+@media (max-width: 1025px) {
+  .footer__navigation {
+    width: auto;
+    padding-inline: 48px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__navigation {
+    width: auto;
+    padding-right: 24px;
+  }
+}
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.footer__menu-link {
+  color: var(--color-light-grey);
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.footer__extra {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+}
+@media (max-width: 1025px) {
+  .footer__extra {
+    padding-inline: 48px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__extra {
+    width: auto;
+    padding-inline: 0;
+  }
+}
+.footer__text-mobile {
+  display: flex;
+  margin-block: 24px;
+}
+.footer__apps {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+@media (max-width: 1025px) {
+  .footer__apps {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__apps {
+    display: flex;
+    flex-direction: row;
+    margin-block: 24px;
+  }
 }/*# sourceMappingURL=styles.css.map */
